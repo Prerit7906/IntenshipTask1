@@ -1,0 +1,21 @@
+.coverimage {
+    width: 100%;
+    background-color: #fff;
+}
+.coverimage input{
+    display: none;
+}
+.coverimage div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.coverimage label{
+    height: 200px;
+    width: 80%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px dotted black;
+}
