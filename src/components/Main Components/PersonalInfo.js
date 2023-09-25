@@ -24,7 +24,7 @@ const PersonalInfo = () => {
             </span>
             <span>
             <input id='toggleButton' type='checkbox'></input>
-            <label htmlFor='toggleButton'>Hide</label>
+            <label htmlFor='toggleButton'>Hide </label>
             </span>
           </div>
         </div>
@@ -37,9 +37,9 @@ const PersonalInfo = () => {
         <div>
           <span>ID Number</span>
         </div>
-        <div>
+        {/* <div>
           <span>Date of Birth </span>
-        </div>
+        </div> */}
         <div>
           <span>Gender</span>
         </div>
