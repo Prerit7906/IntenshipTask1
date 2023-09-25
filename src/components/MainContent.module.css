@@ -1,10 +1,11 @@
 .maincontent{
     height: fit-content;
     position: absolute;
-    text-align: left;
     top: 200px;
     left: 130px;
     width: 40%;
     z-index: -2;
-    background-color: aquamarine
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
 }

@@ -1,0 +1,52 @@
+.coverimage {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+}
+.coverimage input{
+    display: none;
+}
+.coverimage div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.coverimage label{
+    height: 200px;
+    width: 80%;
+    display:flex ;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px dashed rgb(184, 184, 184);
+    margin: 2rem 0;
+    cursor: pointer;
+}
+.coverimage p{
+    font-size: smaller;
+    color: grey;
+}
+.coverimage span{
+    font-size: small;
+    font-weight: 600;
+}
+.imagePreview{
+    width: 100%;
+    height: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.imagePreview img{
+    width: 100%;
+    height: 100%;
+}
+.imagePreview div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    cursor: pointer;
+}

@@ -1,8 +1,8 @@
 import React from 'react'
-import CoverImage from './Main Components/Form Elements/CoverImage'
-import PersonalInfo from './Main Components/Form Elements/PersonalInfo'
-import Profile from './Main Components/Form Elements/Profile'
-import Questions from './Main Components/Form Elements/Questions'
+import CoverImage from './Main Components/CoverImage'
+import PersonalInfo from './Main Components/PersonalInfo'
+import Profile from './Main Components/Profile'
+import Questions from './Main Components/Questions'
 import classes from './MainContent.module.css'
 
 const MainContent = () => {
